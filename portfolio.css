@@ -1,0 +1,75 @@
+nav {
+    background-color: rgb(98, 100, 114);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+}
+button{
+    background-color: rgb(184, 181, 145);
+    border-color: rgb(184, 181, 145);
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.first {
+    display: flex;
+}
+
+.sec {
+    align-content: center;
+}
+
+.head2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.head3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.image {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    margin-block: 20px;
+}
+
+.certificate-image {
+    width: 250px;
+    height: 270px;
+}
+.certificate-image:hover{
+    width: 270px;
+    height: 290px;
+    border: 10px;
+    transition: 0.4s;
+}
+
+h2 {
+    color: bisque;
+}
+
+.last {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: rgb(96, 96, 117);
+    color: azure;
+    position: sticky;
+}
